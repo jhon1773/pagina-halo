@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Header } from './components/Layout/Header';
 import { LandingPage } from './components/Home/LandingPage';
 import { RegistrationForm } from './components/Registration/RegistrationForm';
@@ -43,7 +43,7 @@ function App() {
       <main>
         {renderCurrentSection()}
       </main>
-      
+
       {/* Footer */}
       <footer className="bg-gray-800 border-t border-gray-700 py-6">
         <div className="container mx-auto px-4">
